@@ -24,6 +24,8 @@ pipeline{
                 sh"ls -l target/"
             }
         }
+    }
+}
 //         stage('SonarQube analysis') {
 //             tools {
 //                 jdk 'jdk11'
